@@ -1,7 +1,4 @@
 #!/usr/bin/python3
-for i, j in range(0, 10):
-        num = i + j
-        sa = ","
-        if num == 18:
-            sa = " "
-        print("{}{}{} ".format(i, j, sa), end="")
+for i in range(0, 99):
+    print("{:02d}, ".format(i), end="")
+print('99')
