@@ -7,4 +7,5 @@ def fizzbuzz():
             n = "Buzz"
         elif n % 3 == 0 and n % 5 == 0:
             n = "FizzBuzz"
-        print("{} ".format(n), end="")
+        else:
+            print("{} ".format(n), end="")
