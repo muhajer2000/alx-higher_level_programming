@@ -2,10 +2,10 @@
 def fizzbuzz():
     for n in range(1, 101):
         if n % 3 == 0:
-            n = "Fizz"
+            n = "Fizz "
         elif n % 5 == 0:
-            n = "Buzz"
+            n = "Buzz "
         elif n % 3 == 0 and n % 5 == 0:
-            n = "FizzBuzz"
+            n = "FizzBuzz "
         else:
             print("{} ".format(n), end="")
