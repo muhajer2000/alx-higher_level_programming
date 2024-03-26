@@ -5,10 +5,10 @@ if __name__ == "__main__":
     a = 10
     b = 5
     sum = add(a, b)
-    print("{} + {} = {}".format(int(a), (b), (sum))
+    print("{} + {} = {}".format(a, b, sum))
     subrat = sub(a, b)
-    print("{} - {} = {}".format(a, b, subrat)
+    print("{} - {} = {}".format(a, b, subrat))
     mult = mul(a, b)
-    print("{} * {} = {}".format(a, b, mult)
+    print("{} * {} = {}".format(a, b, mult))
     divit = div(a, b)
-    print("{} / {} = {}".format(a, b, divit)
+    print("{} / {} = {}".format(a, b, divit))
