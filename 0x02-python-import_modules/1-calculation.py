@@ -5,7 +5,7 @@ if __name__ == "__main__":
     a = 10
     b = 5
     sum = add(a, b)
-    print("{} + {} = {}".format(a, b, sum)
+    print("{} + {} = {}".format(int(a), (b), (sum))
     subrat = sub(a, b)
     print("{} - {} = {}".format(a, b, subrat)
     mult = mul(a, b)
