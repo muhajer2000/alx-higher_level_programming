@@ -8,7 +8,7 @@ if __name__ == "__main__":
         print("{} argument.".format(length))
     elif length == 1:
         print("{} argument:".format(length))
-        print("{} {}".format(length, lists[0]))
+        print("{}: {}".format(length, lists[0]))
     else:
         print("{} argument:".format(length))
         for list in lists:
