@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
     import sys
-    lists = sys.argv
-    length = len(sys.argv)
+    lists = sys.argv[1:]
+    length = len(sys.argv[1:])
 
     if length == 0:
         print("{} argument.".format(length))
@@ -12,4 +12,4 @@ if __name__ == "__main__":
     else:
         print("{} argument:".format(length))
         for list in lists:
-            print("{} {}".format(lists.index(list), list))
+            print("{}: {}".format(lists.index(list) + 1, list))
