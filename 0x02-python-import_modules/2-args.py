@@ -5,7 +5,7 @@ if __name__ == "__main__":
     length = len(sys.argv[1:])
 
     if length == 0:
-        print("{} argumentis".format(length))
+        print("{} arguments.".format(length))
     elif length == 1:
         print("{} argument:".format(length))
         print("{}: {}".format(length, lists[0]))
