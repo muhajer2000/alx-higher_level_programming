@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-import string
-string.upper()
+from string import upper
+upper()
 
