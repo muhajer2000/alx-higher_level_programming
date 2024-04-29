@@ -5,4 +5,4 @@ def search_replace(my_list, serach, replace):
 
         if new_list[n] == serach:
             new_list[n] = replace
-    return(new_list)
+    return (new_list)
