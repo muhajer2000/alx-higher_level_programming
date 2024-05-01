@@ -6,6 +6,8 @@ def subtract(list_ro):
         if max_list > num:
             sub += num
     return (max_list - sub)
+
+
 def roman_to_int(roman_string):
     if not roman_string:
         return (0)
