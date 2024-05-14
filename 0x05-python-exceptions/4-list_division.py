@@ -4,7 +4,7 @@ def list_division(my_list_1, my_list_2, list_length):
     j = list_length
     result_list = []
     while i < j:
-       
+
         try:
             num = my_list_1[i] / my_list_2[i]
             result_list.append(num)
