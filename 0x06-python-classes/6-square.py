@@ -11,8 +11,8 @@ class Square:
 
     @property
     def size(self):
-        return self.__size  
-    
+        return self.__size
+
     @size.setter
     def size(self, value):
         if not isinstance(value, int):
@@ -21,10 +21,10 @@ class Square:
             raise ValueError("size must be >= 0")
         self.__size = value
 
-    @property   
+    @property
     def position(self):
         return self.__position
-    
+
     @position.setter
     def position(self, value):
         if (not isinstance(value, tuple) or
