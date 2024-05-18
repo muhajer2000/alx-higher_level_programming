@@ -28,13 +28,6 @@ class SinglyLinkedList:
     def __init__(self):
         self.__head = None
 
-    def __str__(self):
-        values = []
-        tmp = self.__head
-        while tmp:
-            values.append(str(tmp.data))
-            tmp = tmp.next_node
-        return ('\n'.join(values))
 
     def sorted_insert(self, value):
         new = Node(value)
@@ -50,3 +43,11 @@ class SinglyLinkedList:
                 current = current.next_node
             new.next_node = current.next_node
             current.next_node = new
+
+    def __str__(self):
+        values = []
+        tmp = self.__head
+        while tmp:
+            values.append(str(tmp.data))
+            tmp = tmp.next_node
+        return ('\n'.join(values))
