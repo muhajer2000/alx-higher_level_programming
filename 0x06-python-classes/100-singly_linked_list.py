@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 class Node:
+    """class to make link list by python file
+    """
+
     def __init__(self, data , next_node=None):
         self.data = data
         self.next_node = next_node
@@ -24,7 +27,11 @@ class Node:
             raise TypeError("next_node must be a Node object")
         self.__next_node = value
 
+
 class SinglyLinkedList:
+
+    """ class to print the single link list in lines manner"""
+
     def __init__(self):
         self.__head = None
 
