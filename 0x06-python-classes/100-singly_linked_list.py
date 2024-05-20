@@ -1,24 +1,32 @@
 #!/usr/bin/python3
+"""define class for single link list"""
+
 class Node:
-    """class to make link list by python file
-    """
+    """make node of single link"""
 
     def __init__(self, data , next_node=None):
+        """ define the args and inie new node.
+        args:
+            data (int): data of new node
+            next_node : to next node"""
         self.data = data
         self.next_node = next_node
 
     @property
-    def data(self):      #getter
+    def data(self):
+        """ data getter"""
         return self.__data
     
     @data.setter
     def data(self, value):
+        """data setter """
         if not isinstance(value, int):
             raise TypeError("data must be an integer")
         self.__data = value
 
     @property
     def next_node(self):
+        """next node getter"""
         return self.__next_node
     
     @next_node.setter
@@ -33,9 +41,13 @@ class SinglyLinkedList:
     """ class to print the single link list in lines manner"""
 
     def __init__(self):
+        """ init new single link list"""
         self.__head = None
 
     def sorted_insert(self, value):
+        """insert anew node to the singley link list 
+        args:
+            value (int): new node """
         new = Node(value)
         if self.__head is None:
             new.next_node = None
@@ -51,6 +63,7 @@ class SinglyLinkedList:
             current.next_node = new
 
     def __str__(self):
+        """print this node in string manner"""
         values = []
         tmp = self.__head
         while tmp:
