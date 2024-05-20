@@ -28,7 +28,6 @@ class SinglyLinkedList:
     def __init__(self):
         self.__head = None
 
-
     def sorted_insert(self, value):
         new = Node(value)
         if self.__head is None:
