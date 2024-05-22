@@ -1,5 +1,6 @@
+#!/usr/bin/python3
 def add_integer(a, b=98):
-    """" add_intger : function add two intgers 
+    """" add_intger : function add two intgers
 
     Arg:
         a = the first intger
@@ -19,7 +20,9 @@ def add_integer(a, b=98):
     else:
         a = int(a)
         b = int(b)
-        return(a + b)
+        return (a + b)
 if __name__ == "__main__":
     import doctest
+
+
     doctest.testfile("tests/0-add_integer.txt")
