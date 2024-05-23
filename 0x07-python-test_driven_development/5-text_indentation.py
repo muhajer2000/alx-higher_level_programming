@@ -20,7 +20,7 @@ def text_indentation(text):
             print()
         if char == ':':
             print('')
-            print(end='')
+            print()
 
 
 if __name__ == "__main__":
