@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 class rectanglar:
-    def __init__(self):
+    
         pass
 
 
