@@ -69,12 +69,4 @@ class Rectangle:
 
     def __repr__(self):
         "retrun string to creat function eval()"
-        if self.width == 0 or self.height == 0:
-            return ''
-        for_print = ''
-        for col in range(self.height):
-            for row in range(self.width):
-                for_print += '#'
-            if col != self.height - 1:
-                for_print += "\n"
-        return for_print
+        return f"Rectangle({self.width}, {self.height})"
