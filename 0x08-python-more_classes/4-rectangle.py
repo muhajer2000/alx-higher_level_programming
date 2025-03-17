@@ -10,6 +10,7 @@ class Rectangle:
     Instantiation with optional width and height
     Public instance method: def area(self)
     Public instance method: def perimeter(self)
+    deconstructor method implemented 'Bye rectangle...'
     """
 
     def __init__(self, width=0, height=0):
