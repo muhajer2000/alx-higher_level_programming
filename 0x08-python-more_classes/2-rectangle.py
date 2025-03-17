@@ -21,6 +21,7 @@ class Rectangle:
     def width(self):
         """RETUREN FILE FROM THE WIETH FUNCTION , IT IS PROPERTY"""
         return self.__width
+
     @property
     def height(self):
         """RETURN FILE FROM THE FUNCTION , IT IS PROPERTY"""
