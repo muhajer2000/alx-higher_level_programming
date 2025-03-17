@@ -11,12 +11,11 @@ class Rectangle:
     Public instance method: def area(self)
     Public instance method: def perimeter(self)
     """
-    
-    def __init__(self, width = 0, height = 0):
+
+    def __init__(self, width=0, height=0):
         '''constator method'''
         self.height = height
         self.width = width
-
 
     @property
     def width(self):
@@ -26,7 +25,7 @@ class Rectangle:
     def height(self):
         """RETURN FILE FROM THE FUNCTION , IT IS PROPERTY"""
         return self.__height
-    
+
     @width.setter
     def width(self, value):
         """ setter method with name vildtion """
@@ -54,7 +53,3 @@ class Rectangle:
         if self.width == 0 or self.height == 0:
             return 0
         return (self.width * 2) + (self.height * 2)
-
-
-
-
